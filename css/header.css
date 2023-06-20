@@ -1,0 +1,24 @@
+header nav.navbar {
+  background-color: #0000b2;
+}
+header nav.navbar .navbar-brand {
+  color: #000000;
+  text-decoration: none;
+}
+header nav.navbar .collapse.navbar-collapse ul.navbar-nav {
+  margin-left: auto;
+}
+header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+  color: #ffffff;
+}
+header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #16006e;
+}
+header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item ul.dropdown-menu {
+  background-color: #b7c4ff;
+}
+header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item ul.dropdown-menu li a.dropdown-item {
+  color: #126fcd;
+}
+
+/*# sourceMappingURL=header.css.map */

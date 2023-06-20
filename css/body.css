@@ -1,0 +1,16 @@
+@keyframes backgroundColors {
+  0% {
+    background-color: #00aaff;
+  }
+  50% {
+    background-color: #0048a6;
+  }
+  100% {
+    background-color: #0000ff;
+  }
+}
+body {
+  animation: backgroundColors 10s infinite;
+}
+
+/*# sourceMappingURL=body.css.map */

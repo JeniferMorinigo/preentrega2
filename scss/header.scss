@@ -1,0 +1,45 @@
+$header-bg-color: #ffffff;
+$header-text-color: #000000;
+$navbar-bg-color: #0000b2;
+$navbar-link-color: #ffffff;
+$navbar-link-hover-color: #16006e;
+$navbar-dropdown-bg-color: #b7c4ff;
+$navbar-dropdown-link-color: #126fcd;
+
+header {
+  nav.navbar {
+    background-color: $navbar-bg-color;
+    
+    .navbar-brand {
+      color: $header-text-color;
+      text-decoration: none;
+    }
+    
+    .collapse.navbar-collapse {
+      ul.navbar-nav {
+        margin-left: auto;
+        
+        li.nav-item {
+          a.nav-link {
+            color: $navbar-link-color;
+            
+            &:hover {
+              color: $navbar-link-hover-color;
+            }
+           
+          }
+          
+          ul.dropdown-menu {
+            background-color: $navbar-dropdown-bg-color;
+            
+            li {
+              a.dropdown-item {
+                color: $navbar-dropdown-link-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

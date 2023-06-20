@@ -1,0 +1,27 @@
+main .container .row .col-md-4 .card {
+  background-color: #ffbaa5;
+  padding: 10px;
+  width: 18rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+main .container .row .col-md-4 .card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+main .container .row .col-md-4 .card .card:hover {
+  transform: translate(-5px);
+}
+main .container .row .col-md-4 .card .card-body {
+  padding: 1.25rem;
+}
+main .container .row .col-md-4 .card .card-body .card-text {
+  color: #000000;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main-servicios.css.map */
