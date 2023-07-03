@@ -1,12 +1,12 @@
 @keyframes backgroundColors {
   0% {
-    background-color: #00aaff;
+    background-color: #e3f0f6;
   }
   50% {
-    background-color: #0048a6;
+    background-color: #8ebefe;
   }
   100% {
-    background-color: #0000ff;
+    background-color: #3f3fff;
   }
 }
 body {

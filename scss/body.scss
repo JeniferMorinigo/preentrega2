@@ -1,5 +1,5 @@
 $animation-duration: 10s;
-$colors: #00aaff, #0048a6, #0000ff;
+$colors: #e3f0f6, #8ebefe, #3f3fff;
 
 @mixin changingBackgroundColor($colors, $duration) {
   @keyframes backgroundColors {

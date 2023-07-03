@@ -1,24 +1,32 @@
-header nav.navbar {
-  background-color: #0000b2;
+.navbar {
+  background-color: #f46100;
 }
-header nav.navbar .navbar-brand {
+
+.navbar img {
+  height: 60px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav .nav-item .nav-link {
   color: #000000;
-  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
 }
-header nav.navbar .collapse.navbar-collapse ul.navbar-nav {
-  margin-left: auto;
+.navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+  color: #ccc;
 }
-header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
-  color: #ffffff;
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #d03a04;
 }
-header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
-  color: #16006e;
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #fff;
+  padding: 0.5rem 1rem;
 }
-header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item ul.dropdown-menu {
-  background-color: #b7c4ff;
-}
-header nav.navbar .collapse.navbar-collapse ul.navbar-nav li.nav-item ul.dropdown-menu li a.dropdown-item {
-  color: #126fcd;
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover, .navbar-nav .nav-item .dropdown-menu .dropdown-item:focus {
+  background-color: #ea4e00;
 }
 
 /*# sourceMappingURL=header.css.map */
